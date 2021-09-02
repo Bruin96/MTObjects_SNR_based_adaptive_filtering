@@ -1,0 +1,8 @@
+astropy
+matplotlib
+numpy
+Pillow
+scipy
+scikit-image
+scikit-build
+numba
