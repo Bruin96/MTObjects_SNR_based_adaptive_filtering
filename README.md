@@ -5,10 +5,12 @@ This repository contains the MTObjects framework as was provided to me by Caroli
 This project is part of a project for the Rijksuniversiteit Groningen Master's course 'In-Company or Research Internship (CS)'. The first publishing of this repository also represents the final version of the code for this version of the code. There will NOT be support for any issues experienced when trying to use this code, nor is the code verified in any way for accurate business use.
 
 In order to run the code, you need to take the following steps:
+- Install Python3 (if you do not have it installed yet)
 - Clone the repository
 - Navigate to the folder 'mto\_source\_code'
 - Execute the command './compile_\adaptive\_smooth\_lib.sh'
 - Execute the command './recompile.sh'
+- Execute the command 'pip3 -r requirements.txt'
 - Run the command 'python3 mto.py \<location of input .fits file \> -out \< out_dir/filename.[fits|png] \>'
 
 You can set the inner parameters of the MTObjects framework, including the target SNR value, by using options on the command line. The new parameter introduced in this research project compared to the original code is the '-snr' option, which specifies the target SNR value. The '-snr' option should be followed by a whitespace and a floating point number.
